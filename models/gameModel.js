@@ -5,7 +5,7 @@ module.exports.gameInfo={
     challengeMsg:"Click a Gesture to Challenge the Machine!",
     explanation:`This is a NodeJS version of the game, Rock-Paper-Scissors-Lizard-Spock.
     The game was originally created by Sam Kass with Karen Bryla and made popular by the Sheldon character on the television show Big Bang Theory.`,
-    exampleInfo:`Languages used: HTML, CSS, JavaScript/jQuery, Bootsrap, AJAX, NodeJS,<br> Node Libraries: Express, express-es6-template-engine,
+    exampleInfo:`Languages used: HTML, CSS, JavaScript/jQuery, Bootsrap, AJAX, NodeJS,<br> Node Libraries: Express, express-es6-template-engine, promise-mysql
     Dev: MVC Create (also by me), nodemon <br>A Code Demo by Dan Guinn - <a href="https://github.com/nuntius-rex/node-lizard-spock" target="_blank">Code On GitHub</a>`
 };
 
