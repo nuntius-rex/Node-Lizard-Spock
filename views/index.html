@@ -31,20 +31,16 @@
                                <p>
                                <!-- User stats are displayed on page load and repopulated during gameplay with jQuery/AJAX -->
                                <strong>User Stats:</strong><br>
-                                   Wins: {{ stats.win }}<br>
-                                   Losses: {{ stats.lose }}<br>
-                                   Draws: {{ stats.draw }}<br>
+                                   Wins: <br>
+                                   Losses: <br>
+                                   Draws: <br>
                                    <br>
-                                   <!-- Looping through the user and computer gestures -->
+
                                    <strong>User Gestures:</strong><br>
-                                   {% for gestures in stats.user_gestures %}
-                                       {{ gestures.gesture_count }} {{ gestures.gesture }}<br>
-                                   {% endfor %}
+
                                    <br>
                                    <strong>Computer Gestures:</strong><br>
-                                   {% for gestures in stats.user_gestures %}
-                                       {{ gestures.gesture_count }} {{ gestures.gesture }}<br>
-                                   {% endfor %}
+
 
 
                                </p>

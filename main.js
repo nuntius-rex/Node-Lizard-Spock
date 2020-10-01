@@ -15,7 +15,7 @@ app.set('views', 'views');
 app.set('view engine', 'html');
 
 
-//Example: Dynamically setup get() routes to all controllers:
+//Dynamically setup get() routes to all controllers:
 for(let i=0;i<routes.length;i++){
   let controller=routes[i].controller; //This returns a controller function
   if(routes[i].type=="get"){

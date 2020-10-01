@@ -1,11 +1,9 @@
 
-//Add Controllers here:
+//Controllers:
 const homeController = require('./controllers/homeController');
-const aboutController = require('./controllers/aboutController');
 const gameController = require('./controllers/gameController');
 
-//Routes in this context is router instruction to the Express router:
-//routes is used both internal to the module and exported.
+//Routes in this context are router instruction to the Express router:
 const routes=[
   {
     name:"Home",
@@ -16,17 +14,6 @@ const routes=[
     template:"index.html",
     controller: function(){
       return homeController.processReq;
-    }
-  },
-  {
-    name:"About",
-    path:"/about",
-    params:"",
-    type:"get",
-    template_name:"index",
-    template:"index.html",
-    controller: function(){
-      return aboutController.processReq;
     }
   },
   {

@@ -20,14 +20,13 @@ exports.processReq=(req,res)=>{
   //var path = require('path');
   //res.sendFile(path.join(__dirname + '../../views/'+template));
 
-  //=== Data Model call here = Get Model for Home:
-  //3)
+  //3) Data Model call here = Get Model for Home:
   //console.log(appModel.getAppContent("Home"));
   var homeBodyContent="undefined";
 
 
   //console.log(gameInfo);
-  console.log(guestures);
+  //console.log(guestures);
 
   //4) es6Renderer
   res.render(template, {locals:
