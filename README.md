@@ -8,11 +8,12 @@
 
 <p>An instance of Node and MySQL is required.</p>
 
-### Getting the code and installing
+### Getting the Code and Installing
 
 1) Clone and run npm install:
 ```
 git clone https://github.com/nuntius-rex/Node-Lizard-Spock.git
+cd Node-Lizard-Spock
 npm install
 ```
 2) Create a database called lizard-spock in MySQL using the MySQL command line or a MySQL client.
@@ -33,6 +34,8 @@ const dbConfig = {
 
 ## Development Choices
 
+<p>I am intentionally minimalistic, as I favor the philosophy of "run only what is needed" as opposed to "run everything, in case you need it." I have found that this serves me well, as less, and more concise code, means it is easier to maintain and diagnose problems. From time to time you are asked to just "get it done" which is fine, but if you have a quick, concise methodology, you will get there quicker, with sustainability, in the long run. Moreover, I should mention in contrast, being minimalistic does not mean I like to "reinvent the wheel." I also believe in using the right tool for the job. <p>
+
 <p>When one studies the dependencies I have used in package.json you will see the following:</p>
 
 ```
@@ -47,10 +50,10 @@ const dbConfig = {
 }
 ```
 
-<p>I am intentionally minimalistic, as I favor the philosophy of "run only what is needed" as opposed to "run everything, in case you need it." I have found that this serves me well, as less, and more concise code, means it is easier to diagnose problems. From time to time you are asked to just "get it done" which is fine, but if you have a quick, concise methodology, you will get there quicker, in the long run. Moreover, in contrast, being minimalistic does not mean I like to "reinvent the wheel." I also believe in using the right tool for the job. <p>
+<p>Here is a bit about why I chose these options:</p>
 
 >Development: For dev I create the MVC structure with MVC Create (my own tool), and then use nodemon during development to save time restarting the server.
 
->General Dependencies: I use Express in this case because of it's advanced routing capabilities which provides a lot of flexibility. For templating, I use 'express-es6-template-engine' as I enjoy that it is not some new templating language, but ES6 syntax. I chose 'promise-mysql' as I have found it to be more reliable than the standard mysql library in Node when developing full-stack solutions. This is primarily because you have the ability to wait on database processes to complete and not interfere with game processing.
+>General Dependencies: I use Express in this case because of it's advanced routing and templating support capabilities which provides a lot of flexibility. For templating, I use 'express-es6-template-engine' as I enjoy that it is not some new templating language, but ES6 syntax. I chose 'promise-mysql' as I have found it to be more reliable than the standard mysql library in Node when developing full-stack solutions. This is primarily because you have the ability to wait on database processes to complete and not interfere with game processing.
 
->Front-End: I used bootstrap and jQuery to quickly get rolling.  
+>Front-End: I used Bootstrap and jQuery to quickly get rolling. A font-end framework could have been implemented, but for simplicity, and quick development of this project, the two selected were more than adequate.
