@@ -31,18 +31,24 @@
                                <p>
                                <!-- User stats are displayed on page load and repopulated during gameplay with jQuery/AJAX -->
                                <strong>User Stats:</strong><br>
-                                   Wins: <br>
-                                   Losses: <br>
-                                   Draws: <br>
+                                   Wins: ${gameStats.win}<br>
+                                   Losses: ${gameStats.lose}<br>
+                                   Draws: ${gameStats.draw}<br>
                                    <br>
-
                                    <strong>User Gestures:</strong><br>
-
+                                    ${
+                                      gameStats.user_gestures.map(g=>`
+                                        ${g.gesture_count} ${g.gesture}<br>
+                                      `).join('')
+                                    }
                                    <br>
+
                                    <strong>Computer Gestures:</strong><br>
-
-
-
+                                   ${
+                                     gameStats.computer_gestures.map(g=>`
+                                       ${g.gesture_count} ${g.gesture}<br>
+                                     `).join('')
+                                   }
                                </p>
                                </div>
                            </div>
@@ -50,7 +56,7 @@
 
                                <h2>${challengeMsg}</h2>
 
-                               <!-- Looping through the player gestures that will be clicked by the user to play-->
+                               <!-- Template: Loop through the player gestures that will be clicked by the user to play-->
                                ${guestures.map(g=>`
                                   <span id="${g.name}" class="hand_gesture">
                                     <i class="${ g.font_awesome }" aria-hidden='true'></i>
