@@ -1,4 +1,10 @@
 
+/*
+Note: Here I could have constructed a database driven model,
+but since the game does not update this information... ever,
+I decided to make the features hard-coded read-only. 
+*/
+
 module.exports.gameInfo={
     name:"Rock Paper Scissors Lizard Spock",
     code: "NodeJS Version",
