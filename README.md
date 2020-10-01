@@ -4,6 +4,8 @@
 
 <p>I originally created this code example in <a href="https://github.com/nuntius-rex/symfony-lizard-spock">Symfony in 2017</a>. I decided to try a new version in NodeJS.</p>
 
+<p>This version highlights a NodeJS MVC structure with transactional database interactions.</p>
+
 ![Preview](/public/img/preview.png?raw=true "Preview")
 
 ## INSTALL
