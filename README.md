@@ -2,6 +2,8 @@
 
 <p>This is a full stack example of Rock-Paper-Scissors-Lizard-Spock in NodeJS<p>
 
+<p>I originally created this code example in <a href="https://github.com/nuntius-rex/symfony-lizard-spock">Symfony in 2017</a>. I decided to try a new version in NodeJS.</p>
+
 ![Preview](/public/img/preview.png?raw=true "Preview")
 
 ## INSTALL
