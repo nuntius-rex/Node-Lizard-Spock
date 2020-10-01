@@ -63,7 +63,7 @@ exports.processReq=(req,res)=>{
       stats.computer_gestures=player2Gestures;
 
       outcome.push(stats);
-      console.log(outcome);
+      //console.log(outcome);
       res.send(JSON.stringify(outcome));
   }
 

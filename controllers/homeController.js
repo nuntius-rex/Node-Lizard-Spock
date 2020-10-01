@@ -35,7 +35,7 @@ exports.processReq=(req,res)=>{
     });
     stats.computer_gestures=player2Gestures;
 
-    console.log(stats);
+    //console.log(stats);
 
     res.render(template, {locals:
       {
