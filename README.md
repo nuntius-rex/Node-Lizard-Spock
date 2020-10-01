@@ -2,6 +2,8 @@
 
 <p>This is a full stack example of Rock-Paper-Scissors-Lizard-Spock in NodeJS<p>
 
+![Preview](/public/img/preview.png?raw=true "Preview")
+
 ## INSTALL
 
 ### Prerequisites

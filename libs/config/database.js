@@ -1,8 +1,8 @@
 const mysql = require('promise-mysql');
 
 const dbConfig = {
-        user: "root",
-        password: "1lex2admit",
+        user: "YOUR_USERNAME",
+        password: "YOUR_PASSWORD",
         database: "lizard-spock",
         host: "localhost",
         connectionLimit: 10
