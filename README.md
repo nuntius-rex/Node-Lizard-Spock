@@ -8,7 +8,8 @@
 
 ![Preview](/public/img/preview.png?raw=true "Preview")
 
-<a href="http://nodelizardspock-env.eba-gxctmwpy.us-east-1.elasticbeanstalk.com/">Live Demo</a>
+
+> If you would like to play, check it out here: <a href="http://nodelizardspock-env.eba-gxctmwpy.us-east-1.elasticbeanstalk.com/">Live Demo</a>
 
 ## INSTALL
 
