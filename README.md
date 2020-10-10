@@ -8,6 +8,8 @@
 
 ![Preview](/public/img/preview.png?raw=true "Preview")
 
+<a href="http://nodelizardspock-env.eba-gxctmwpy.us-east-1.elasticbeanstalk.com/">Live Demo</a>
+
 ## INSTALL
 
 ### Prerequisites
